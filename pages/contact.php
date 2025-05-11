@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hanzu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/contact.css"> 
+</head>
+<body>
+<nav class="navbar navbar-expand-lg text-uppercase">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active px-lg-4 rounded" href="../index.php">Home</a>
+                <a class="nav-link px-lg-4 rounded" href="../pages/about_me.php">About</a>
+                <a class="nav-link px-lg-4 rounded" href="../pages/services.php">Services</a>
+                <a class="nav-link px-lg-4 rounded" href="../pages/contact.php">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <section class="contact">
+        <div class="contact-form">
+            <h1>Contact <span>Us</span></h1>
+            <p>I am available anytime you want with my respective services. Connect with me via facebook: Hanzu or gmail:hanzu@gmail.com</p>
+            <form action="">
+                <input type="" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="" placeholder="Write a Subject" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" name="" value="Submit" class="btn">
+            </form>
+        </div>
+    </section>

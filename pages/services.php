@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hanzu</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/services.css"> 
+</head>
+<body>
+<nav class="navbar navbar-expand-lg text-uppercase">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active px-lg-4 rounded" href="../index.php">Home</a>
+                <a class="nav-link px-lg-4 rounded" href="../pages/about_me.php">About</a>
+                <a class="nav-link px-lg-4 rounded" href="../pages/services.php">Services</a>
+                <a class="nav-link px-lg-4 rounded" href="../pages/contact.php">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section>
+<div class="service">
+    <div class="title">
+        <h2>Services.</h2>
+    </div>
+
+    <div class="box">
+        <div class="card">
+            <i class="fas fa-bars"></i>
+            <h5>Web Development</h5>
+            <div class="pra">
+                <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="card">
+            <i class="fas fa-user"></i>
+            <h5>Database</h5>
+            <div class="pra">
+                <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="card">
+            <i class="fas fa-bell"></i>
+            <h5>Web Design</h5>
+            <div class="pra">
+                <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+

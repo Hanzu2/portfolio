@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: black;
+    transition: 0.6s;
+}
+
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section{
+    padding: 40px 15%;
+}
+
+.contact{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-form h1{
+    font-size: 80px;
+    font-weight: 780;
+    color: black;
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(255, 119, 119);
+}
+
+.contact-form p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1 rem;
+    margin-bottom: 3.8 rem;
+}
+
+.contact-form form{
+    position: relative;
+}
+
+.contact-form form input, form textarea{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background-color: rgba(83, 83, 83, 0.46);
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact-form textarea{
+    resize: none;
+    height: 200px;
+}
+
+.contact-form form .btn{
+    display: inline-block;
+    background: rgb(255, 119, 119);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+
+.contact-form form .btn:hover{
+    border: 2px solid rgb(255, 119, 119);
+    background: transparent;
+    transform: scale(1.1);
+}
